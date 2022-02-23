@@ -141,6 +141,7 @@ exports[`Storyshots TaskList Default 1`] = `
 >
   <div
     className="list-items"
+    data-testid="success"
   >
     <div
       className="list-item TASK_INBOX"
@@ -420,6 +421,7 @@ exports[`Storyshots TaskList Empty 1`] = `
 >
   <div
     className="list-items"
+    data-testid="empty"
   >
     <div
       className="wrapper-message"
@@ -452,6 +454,7 @@ exports[`Storyshots TaskList Loading Tasks 1`] = `
 >
   <div
     className="list-items"
+    data-testid="loading"
   >
     <div
       className="loading-item"
@@ -599,6 +602,7 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
 >
   <div
     className="list-items"
+    data-testid="success"
   >
     <div
       className="list-item TASK_PINNED"
